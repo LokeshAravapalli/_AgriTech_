@@ -1,0 +1,30 @@
+nRF24L01 Pin Connections:
+- GND -> GND (Arduino)
+- VCC -> 3.3V (Arduino)
+- CE  -> Pin 7 (Arduino)
+- CSN -> Pin 8 (Arduino)
+- SCK -> Pin 13 (Arduino)
+- MOSI -> Pin 11 (Arduino)
+- MISO -> Pin 12 (Arduino)
+- IRQ -> Not connected (Not needed)
+
+Soil Moisture Sensor Pin Connections:
+- VCC -> Pin 2 (Arduino)
+- GND -> GND (Arduino)
+- Analog Out -> A0 (Arduino)
+
+Temperature Sensor (LM35) Pin Connections:
+- VCC -> Pin 2 (Arduino)
+- GND -> GND (Arduino)
+- Output -> A1 (Arduino)
+
+pH Sensor Pin Connections:
+- VCC -> Pin 2 (Arduino)
+- GND -> GND (Arduino)
+- Analog Out -> A2 (Arduino)
+
+Humidity Sensor Pin Connections:
+- VCC -> Pin 2 (Arduino)
+- GND -> GND (Arduino)
+- Analog Out -> A3 (Arduino)
+
