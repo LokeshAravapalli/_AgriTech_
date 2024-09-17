@@ -28,4 +28,3 @@ Humidity Sensor Pin Connections:
 - GND -> GND (Arduino)
 - Analog Out -> A3 (Arduino)
 
- 
