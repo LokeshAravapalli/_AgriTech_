@@ -44,3 +44,4 @@
 | VCC                     | Pin 2           | Power (controlled by digital pin 2) |
 | GND                     | GND             | Ground                  |
 | Analog Out              | A3              | Analog Data Pin          |
+ 
