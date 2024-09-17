@@ -53,10 +53,6 @@ void collectSensorData(packet_t &packet) {
   int phValue = analogRead(PH_SENSOR_PIN);
   int humidity = analogRead(HUMIDITY_SENSOR_PIN);
 
-  snprintf(packet.data1, sizeof(packet.data1), "%d", soilMoisture);
-  snprintf(packet.data2, sizeof(packet.data2), "%.2f", temperature);
-  snprintf(packet.data3, sizeof(packet.data3), "%d", phValue);
-  snprintf(packet.data4, sizeof(packet.data4), "%d", humidity);
 }
 
 void setup(void) {

@@ -118,7 +118,7 @@ public:
     }
 };
 
-// Global nodes (as an example)
+// Creating nodes
 Node* node1;
 Node* node2;
 Node* node3;
@@ -134,7 +134,7 @@ void setup() {
     // Setup nodes
     node1 = new Node(01);
     node2 = new Node(02);
-    node3 = new Node(03);
+    node3 = new Node(011);
 
     node1->children = new Node*[2];
     node1->children[0] = node2;
